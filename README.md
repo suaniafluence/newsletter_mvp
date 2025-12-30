@@ -195,7 +195,7 @@ CREWAI_VERBOSE=true
 Exemple :
 
 ```python
-from crewai_tools import tool
+from crewai.tools import tool
 
 @tool("my_custom_tool")
 def my_tool(input: str) -> str:

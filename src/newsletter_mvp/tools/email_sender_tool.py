@@ -7,7 +7,7 @@ import os
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from crewai_tools import tool
+from crewai.tools import tool
 
 
 @tool("email_sender_tool")

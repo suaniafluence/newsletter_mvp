@@ -5,7 +5,7 @@ Permet de charger et lire les documents/données internes de l'entreprise.
 
 import json
 import os
-from crewai_tools import tool
+from crewai.tools import tool
 
 
 @tool("internal_data_tool")
