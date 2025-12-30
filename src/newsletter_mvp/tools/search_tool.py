@@ -4,7 +4,7 @@ Permet de rechercher des articles et contenus récents sur un sujet donné.
 """
 
 import os
-from crewai import tool
+from crewai.tools import tool
 import requests
 
 
