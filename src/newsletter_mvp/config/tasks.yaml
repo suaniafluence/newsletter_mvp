@@ -1,0 +1,55 @@
+collect_web_content:
+  description: >
+    Cherche des articles récents pertinents pour le thème {theme}. Utilise l'outil de recherche web.
+  expected_output: >
+    Une liste de 5 à 10 articles pertinents, formatés en JSON (titre, source, date, lien, contenu brut).
+  agent: collector_externe
+
+collect_internal_content:
+  description: >
+    Va lire les informations internes pertinentes pour le thème {theme}.
+  expected_output: >
+    Données internes en texte brut (rapports, métriques, mises à jour produit) utiles pour la newsletter.
+  agent: collector_interne
+
+summarize_content:
+  description: >
+    Résume les contenus collectés, qu'ils soient internes ou externes.
+  expected_output: >
+    Un résumé structuré de chaque contenu, avec source, points clés, et mots-clés.
+  agent: resumeur
+
+plan_newsletter:
+  description: >
+    Crée un plan éditorial structuré de la newsletter à partir des résumés.
+  expected_output: >
+    Un plan clair : introduction, sections, titres, ordre, résumé des points clés par section.
+  agent: planificateur
+
+write_newsletter:
+  description: >
+    Rédige la newsletter complète selon le plan validé.
+  expected_output: >
+    Un texte HTML structuré prêt à être envoyé (titre, paragraphes, appels à l'action).
+  agent: redacteur
+
+validate_newsletter:
+  description: >
+    Relis et valide le contenu généré, en corrigeant le style, la grammaire et les erreurs.
+  expected_output: >
+    Une version corrigée et validée de la newsletter prête à personnaliser.
+  agent: validateur
+
+customize_newsletter:
+  description: >
+    Crée des variantes personnalisées de la newsletter pour chaque segment client.
+  expected_output: >
+    Une version HTML différente par segment (ex: PME, VIP, etc.)
+  agent: personnaliseur
+
+send_newsletter:
+  description: >
+    Envoie les versions finales des newsletters aux bons segments via email.
+  expected_output: >
+    Un message de confirmation listant les envois réussis ou échoués.
+  agent: diffuseur

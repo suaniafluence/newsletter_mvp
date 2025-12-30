@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Lancement du produit Alpha AI",
+    "content": "Nous avons lancé avec succès notre nouveau produit Alpha AI ce trimestre. Plus de 500 clients early adopters ont déjà adopté la solution, avec un taux de satisfaction de 92%. Les fonctionnalités principales incluent l'automatisation intelligente des workflows et l'analyse prédictive.",
+    "date": "2025-12-01",
+    "category": "Produit"
+  },
+  {
+    "title": "Croissance trimestrielle record",
+    "content": "Le chiffre d'affaires du Q4 2025 a augmenté de 28% par rapport au Q3, dépassant nos objectifs initiaux de 15%. Cette croissance est principalement portée par notre expansion sur le marché européen et le succès de nos nouvelles fonctionnalités d'IA.",
+    "date": "2025-12-22",
+    "category": "Finance"
+  },
+  {
+    "title": "Nouvelle équipe Data Science",
+    "content": "Nous avons renforcé notre équipe Data Science avec l'arrivée de 5 nouveaux experts en machine learning. Cette expansion nous permettra d'accélérer le développement de nos modèles d'IA et d'améliorer la personnalisation de nos services.",
+    "date": "2025-12-10",
+    "category": "RH"
+  },
+  {
+    "title": "Partenariat stratégique avec TechCorp",
+    "content": "Signature d'un partenariat majeur avec TechCorp pour intégrer nos solutions d'IA dans leur écosystème de 10 000+ entreprises clientes. Ce partenariat devrait générer une croissance significative en 2026.",
+    "date": "2025-12-15",
+    "category": "Business Development"
+  },
+  {
+    "title": "Mise à jour de sécurité importante",
+    "content": "Déploiement réussi de la mise à jour de sécurité v2.5 sur toute notre infrastructure. Nous avons renforcé le chiffrement des données et mis en place de nouvelles protections contre les cyberattaques. Conformité RGPD à 100%.",
+    "date": "2025-12-18",
+    "category": "Sécurité"
+  },
+  {
+    "title": "Programme de formation IA pour clients",
+    "content": "Lancement d'une série de webinaires gratuits pour former nos clients à l'utilisation optimale de nos outils d'IA. Plus de 1 200 inscriptions lors de la première semaine. Le feedback est extrêmement positif.",
+    "date": "2025-12-20",
+    "category": "Support Client"
+  }
+]
